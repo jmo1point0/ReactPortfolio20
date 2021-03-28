@@ -8,9 +8,8 @@ const Home = () => {
         <div className="home">
             <div className="title">
                 <h1>
-                    <h4 className="subtitle">hello friends, I'm</h4>
-                    <h1>Jordan<span id="Jordan">Jordan</span> Mossing</h1>
-                    <h4 className="subtitle">Full Stack Web Developer</h4>
+                    <h1><span id="Jordan">Jordan</span> Mossing</h1>
+                    <h4 className="subtitle">Technology Professional</h4>
                 </h1>
                 <Link to="/about">
                     <button>More Info</button>
