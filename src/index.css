@@ -1,0 +1,81 @@
+.navbar, 
+.navbar-expand-sm, 
+.navbar-light,
+.bg-light {
+   /*color: rgb(211,211,211)!important;*/
+    /*background-image: url("assets/images/background.jpg");*/
+    /*background-color:rgb(220,220,220)!important;*/
+    
+}
+
+nav a:hover {
+    text-transform: uppercase;
+    font-weight: 600;
+    /*color: rgb(216, 215, 215);*/
+    font-size: 1.1rem;
+}
+
+body {
+    background-color: rgb(220,220,220);
+    box-shadow: 3px 3px 3px 3px grey;
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: rgb(220,220,220);
+    border: rgb(220,220,220);
+    color: rgb(28, 26, 26);
+}
+
+.btn:hover {
+    background-color:rgb(208, 209, 171);
+    color: rgb(18, 92, 255);
+    font-size: 1.2rem;
+    
+}
+
+#about {
+    background: #f3f2ef;
+    /*background: #e9e5df;*/
+    /*background: #dce6f1;*/
+    /*background: rgb(210,210,210)*/
+    color: rgb(29, 26, 26);
+    font-family: sans-serif;
+    
+}
+
+#about p {
+    font-size: 18px;
+}
+
+#portfolio1 {
+    box-shadow: 3px 3px 3px 3px #d6cec2;
+}
+
+#portfolio2 {
+    box-shadow: 3px 3px 3px 3px #d6cec2;
+}
+
+#portfolio3 {
+    box-shadow: 3px 3px 3px 3px #d6cec2;
+}
+
+#portfolio4 {
+    box-shadow: 3px 3px 3px 3px #d6cec2;
+}
+
+#picture {
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px grey;
+}
+
+#contact a:hover {
+    text-transform: uppercase;
+    }
+
+#contact {
+    /*background-image: url("assets/background.jpg");*/
+    /*background-color:rgb(220,220,220)!important;*/
+    /*background-color: rgb(29, 26, 26);*/
+    position: relative;
+}

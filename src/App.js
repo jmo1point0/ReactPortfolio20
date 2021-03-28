@@ -1,27 +1,29 @@
-import React, { useEffect, useState } from 'react'
-import randomAPI from './utils/randomusersapi'
+import React from 'react';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from "./components/Home";
+import About from './components/About';
+import Projects from './components/Projects';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import './App.css';
+
 
 function App() {
-  const [randomUser, setRandomUser] = useState({})
-
-  useEffect(() => {
-    getUser()
-  }, [])
-
-  const getUser = async () => {
-    const users = await randomAPI.getUsers();
-    setRandomUser(users)
-  }
-
   return (
-    <div className="App">
-      HELLO
-      {randomUser.results
-        ? randomUser.results.map((user) => {
-            return <div>{user.name.first}</div>;
-          })
-        : ""}
-    </div>
+    <Router>
+      <Navbar />
+      <div className="app">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+
   );
 }
 
