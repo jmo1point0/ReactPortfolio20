@@ -4,7 +4,7 @@ import './style.css';
 const Projects = () => {
     return (
        <div>
-           
+           Projects coming to this page soon!
        </div>
     )
 }
